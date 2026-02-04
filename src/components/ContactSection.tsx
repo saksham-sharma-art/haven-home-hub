@@ -41,15 +41,15 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email Us",
-      value: "info@bloomresidency.com",
-      href: "mailto:info@bloomresidency.com",
+      value: "info@bloomhostel.com",
+      href: "mailto:info@bloomhostel.com",
       color: "peach",
     },
     {
       icon: MessageCircle,
       label: "WhatsApp",
       value: "Chat with us",
-      href: "https://wa.me/919876543210?text=Hi,%20I'm%20interested%20in%20Bloom%20Residency",
+      href: "https://wa.me/919876543210?text=Hi,%20I'm%20interested%20in%20Bloom%20Hostel",
       color: "sky",
     },
   ];
