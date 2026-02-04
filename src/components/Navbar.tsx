@@ -27,7 +27,7 @@ const Navbar = () => {
               <span className="font-serif text-lg font-bold text-primary-foreground">B</span>
             </div>
             <span className="font-serif text-xl font-semibold text-foreground">
-              Bloom Residency
+              Bloom Hostel
             </span>
           </a>
 

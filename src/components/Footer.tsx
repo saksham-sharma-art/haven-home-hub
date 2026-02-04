@@ -35,7 +35,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-full cta-gradient flex items-center justify-center">
                 <span className="font-serif text-lg font-bold text-primary-foreground">B</span>
               </div>
-              <span className="font-serif text-xl font-semibold">Bloom Residency</span>
+              <span className="font-serif text-xl font-semibold">Bloom Hostel</span>
             </a>
             <p className="text-primary-foreground/70 text-sm mb-4">
               Safe, comfortable, and affordable living for women. Your home away from
@@ -108,10 +108,10 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:info@bloomresidency.com"
+                  href="mailto:info@bloomhostel.com"
                   className="hover:text-primary-foreground transition-colors"
                 >
-                  info@bloomresidency.com
+                  info@bloomhostel.com
                 </a>
               </li>
             </ul>
@@ -121,7 +121,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/60">
-            © {currentYear} Bloom Residency. All rights reserved.
+            © {currentYear} Bloom Hostel. All rights reserved.
           </p>
           <p className="text-sm text-primary-foreground/60 flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-rose fill-rose" /> for women
