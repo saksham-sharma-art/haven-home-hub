@@ -94,9 +94,11 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
               <li>
-                123, Bloom Lane, Near Central Park,
+                Near The Basement Cafe, ON NH2,
                 <br />
-                North Campus, New Delhi - 110007
+                Just beside GLA University, Mathura,
+                <br />
+                Bharthia, Uttar Pradesh - 281406
               </li>
               <li>
                 <a
