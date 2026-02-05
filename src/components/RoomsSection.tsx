@@ -1,6 +1,8 @@
-import { motion } from "framer-motion";
+ import { useState } from "react";
+ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
+ import { Button } from "@/components/ui/button";
+ import BookingDialog from "@/components/BookingDialog";
 import roomSingle from "@/assets/room-single.jpg";
 import roomDouble from "@/assets/room-double.jpg";
 import roomTriple from "@/assets/room-triple.jpg";
@@ -57,6 +59,11 @@ const rooms = [
 ];
 
 const RoomsSection = () => {
+   const [selectedRoom, setSelectedRoom] = useState<{
+     type: string;
+     price: string;
+   } | null>(null);
+ 
   return (
     <section id="rooms" className="section-padding bg-muted/30">
       <div className="container mx-auto">
@@ -127,15 +134,18 @@ const RoomsSection = () => {
                   ))}
                 </ul>
 
-                <Button
-                  className={`w-full ${
-                    room.popular
-                      ? "cta-gradient border-0 text-primary-foreground"
-                      : "bg-lavender-light text-lavender-dark hover:bg-lavender"
-                  }`}
-                >
-                  Enquire Now
-                </Button>
+                 <Button
+                   onClick={() =>
+                     setSelectedRoom({ type: room.type, price: room.price })
+                   }
+                   className={`w-full ${
+                     room.popular
+                       ? "cta-gradient border-0 text-primary-foreground"
+                       : "bg-lavender-light text-lavender-dark hover:bg-lavender"
+                   }`}
+                 >
+                   Enquire Now
+                 </Button>
               </div>
             </motion.div>
           ))}
@@ -157,6 +167,13 @@ const RoomsSection = () => {
           </p>
         </motion.div>
       </div>
+       
+       <BookingDialog
+         open={!!selectedRoom}
+         onOpenChange={(open) => !open && setSelectedRoom(null)}
+         roomType={selectedRoom?.type || ""}
+         roomPrice={selectedRoom?.price || ""}
+       />
     </section>
   );
 };
