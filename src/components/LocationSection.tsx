@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
-import { MapPin, Building2, Bus, Train, Clock } from "lucide-react";
+import { MapPin, Building2, Clock, Hospital } from "lucide-react";
 
 const nearbyPlaces = [
-  { icon: Building2, name: "Delhi University", distance: "0.5 km" },
-  { icon: Building2, name: "AIIMS Hospital", distance: "2 km" },
-  { icon: Bus, name: "Metro Station", distance: "300 m" },
-  { icon: Train, name: "Railway Station", distance: "3 km" },
+  { icon: Building2, name: "GLA University", distance: "Just beside" },
+  { icon: Hospital, name: "KD Hospital", distance: "2 km" },
 ];
 
 const LocationSection = () => {
@@ -41,7 +39,7 @@ const LocationSection = () => {
             className="relative rounded-2xl overflow-hidden shadow-card"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0234567890123!2d77.20902361234567!3d28.63456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM4JzA0LjQiTiA3N8KwMTInMzIuNSJF!5e0!3m2!1sen!2sin!4v1234567890123"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.8234567890123!2d77.50902361234567!3d27.49456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDI5JzQwLjQiTiA3N8KwMzAnMzIuNSJF!5e0!3m2!1sen!2sin!4v1234567890123"
               width="100%"
               height="400"
               style={{ border: 0 }}
@@ -72,9 +70,11 @@ const LocationSection = () => {
                     Our Address
                   </h3>
                   <p className="text-muted-foreground">
-                    123, Bloom Lane, Near Central Park,
+                    Near The Basement Cafe, ON NH2,
                     <br />
-                    North Campus, New Delhi - 110007
+                    Just beside GLA University, Mathura,
+                    <br />
+                    Bharthia, Uttar Pradesh - 281406
                   </p>
                 </div>
               </div>

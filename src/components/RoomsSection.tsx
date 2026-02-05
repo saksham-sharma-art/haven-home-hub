@@ -7,22 +7,6 @@ import roomTriple from "@/assets/room-triple.jpg";
 
 const rooms = [
   {
-    type: "Single Occupancy",
-    price: "₹12,000",
-    period: "/month",
-    image: roomSingle,
-    features: [
-      "Private room",
-      "Attached bathroom",
-      "Study desk & chair",
-      "Wardrobe",
-      "AC included",
-      "All meals included",
-    ],
-    popular: false,
-    color: "lavender",
-  },
-  {
     type: "Double Sharing",
     price: "₹8,000",
     period: "/month",
@@ -53,6 +37,22 @@ const rooms = [
     ],
     popular: false,
     color: "sky",
+  },
+  {
+    type: "Four Sharing",
+    price: "₹5,000",
+    period: "/month",
+    image: roomSingle,
+    features: [
+      "Shared with 3 roommates",
+      "Common bathroom",
+      "Shared study area",
+      "Personal locker",
+      "Fan/Cooler",
+      "All meals included",
+    ],
+    popular: false,
+    color: "lavender",
   },
 ];
 

@@ -50,7 +50,7 @@ const AboutSection = () => {
             A Home Designed for <span className="text-lavender-dark">Women</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Bloom Residency has been providing safe, comfortable, and affordable
+            Bloom Hostel has been providing safe, comfortable, and affordable
             accommodation for women since 2015. We understand the unique needs of
             working women and students, creating spaces where you can thrive.
           </p>
@@ -103,13 +103,11 @@ const AboutSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8"
+          className="mt-16 grid grid-cols-2 gap-8 max-w-md mx-auto"
         >
           {[
-            { number: "200+", label: "Happy Residents" },
-            { number: "8+", label: "Years Experience" },
-            { number: "50+", label: "Furnished Rooms" },
-            { number: "4.9", label: "Rating" },
+            { number: "12+", label: "Furnished Rooms" },
+            { number: "4.9", label: "Google Rating" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-3xl md:text-4xl font-serif font-bold text-lavender-dark mb-2">

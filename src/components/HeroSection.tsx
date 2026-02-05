@@ -46,7 +46,7 @@ const HeroSection = () => {
             className="text-lg text-muted-foreground mb-8 max-w-xl"
           >
             Experience the perfect blend of comfort, security, and community at
-            Bloom Residency. Your home away from home awaits.
+            Bloom Hostel. Your home away from home awaits.
           </motion.p>
 
           <motion.div
