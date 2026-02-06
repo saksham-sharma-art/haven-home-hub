@@ -33,13 +33,15 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <a href="#home" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-full cta-gradient flex items-center justify-center">
-                <span className="font-serif text-lg font-bold text-primary-foreground">B</span>
+                <span className="font-serif text-sm font-bold text-primary-foreground">CH</span>
               </div>
-              <span className="font-serif text-xl font-semibold">Bloom Hostel</span>
+              <div className="flex flex-col">
+                <span className="font-serif text-xl font-semibold">Cozy Heaven</span>
+                <span className="text-xs text-primary-foreground/70 italic">A Home Away from Home</span>
+              </div>
             </a>
             <p className="text-primary-foreground/70 text-sm mb-4">
-              Safe, comfortable, and affordable living for women. Your home away from
-              home since 2015.
+              Safe, comfortable, and affordable living for women near GLA University, Mathura.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social, index) => (
@@ -110,10 +112,10 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:info@bloomhostel.com"
+                  href="mailto:info@cozyheaven.com"
                   className="hover:text-primary-foreground transition-colors"
                 >
-                  info@bloomhostel.com
+                  info@cozyheaven.com
                 </a>
               </li>
             </ul>
@@ -123,7 +125,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/60">
-            © {currentYear} Bloom Hostel. All rights reserved.
+            © {currentYear} Cozy Heaven. All rights reserved.
           </p>
           <p className="text-sm text-primary-foreground/60 flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-rose fill-rose" /> for women

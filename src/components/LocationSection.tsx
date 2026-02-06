@@ -39,14 +39,14 @@ const LocationSection = () => {
             className="relative rounded-2xl overflow-hidden shadow-card"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.8234567890123!2d77.50902361234567!3d27.49456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDI5JzQwLjQiTiA3N8KwMzAnMzIuNSJF!5e0!3m2!1sen!2sin!4v1234567890123"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.5!2d77.5082!3d27.4965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39736e6e5d9e7a3b%3A0x4f6b6e6b6e6b6e6b!2sJH4R%2BPH%20Bharthia%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1709000000000"
               width="100%"
               height="400"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Bloom Residency Location"
+              title="Cozy Heaven Location"
               className="w-full"
             />
           </motion.div>

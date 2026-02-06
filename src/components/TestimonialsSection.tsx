@@ -4,10 +4,10 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Priya Sharma",
-    role: "MBA Student",
+    role: "GLA University Student",
     avatar: "PS",
     rating: 5,
-    text: "Bloom Residency has been my home for 2 years now. The staff is incredibly caring, and I feel completely safe here. The food is just like home!",
+    text: "Cozy Heaven has been my home for 2 years now. Being right next to GLA University makes it so convenient. The staff is incredibly caring, and I feel completely safe here!",
     color: "lavender",
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
     role: "Software Engineer",
     avatar: "AG",
     rating: 5,
-    text: "As a working professional, I needed a place that's safe and convenient. Bloom exceeded my expectations. The location is perfect and amenities are top-notch.",
+    text: "As a working professional near Mathura, I needed a place that's safe and convenient. Cozy Heaven exceeded my expectations. The location on NH2 is perfect!",
     color: "peach",
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     role: "Medical Student",
     avatar: "SR",
     rating: 5,
-    text: "The study environment here is excellent. Quiet hours are strictly maintained, and the management is very understanding of students' needs.",
+    text: "The study environment at Cozy Heaven is excellent. Being close to GLA and having quiet hours strictly maintained makes it perfect for students like me.",
     color: "sky",
   },
   {
@@ -31,7 +31,7 @@ const testimonials = [
     role: "Parent",
     avatar: "KM",
     rating: 5,
-    text: "My daughter has been staying here for a year. The security measures and regular updates from management give me complete peace of mind.",
+    text: "My daughter stays at Cozy Heaven while studying at GLA. The security measures, location near The Basement Cafe, and regular updates give me complete peace of mind.",
     color: "rose",
   },
 ];
@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
           </h2>
           <p className="text-muted-foreground text-lg">
             Don't just take our word for it. Here's what our residents and their
-            families have to say about their experience at Bloom Residency.
+            families have to say about their experience at Cozy Heaven.
           </p>
         </motion.div>
 

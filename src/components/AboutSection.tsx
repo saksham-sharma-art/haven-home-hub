@@ -50,8 +50,8 @@ const AboutSection = () => {
             A Home Designed for <span className="text-lavender-dark">Women</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Bloom Hostel has been providing safe, comfortable, and affordable
-            accommodation for women since 2015. We understand the unique needs of
+            Cozy Heaven provides safe, comfortable, and affordable
+            accommodation for women. We understand the unique needs of
             working women and students, creating spaces where you can thrive.
           </p>
         </motion.div>

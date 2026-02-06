@@ -42,21 +42,21 @@
  
  type FormData = z.infer<typeof formSchema>;
  
- interface BookingDialogProps {
-   open: boolean;
-   onOpenChange: (open: boolean) => void;
-   roomType: string;
-   roomPrice: string;
-   roomId?: string;
- }
- 
- const BookingDialog = ({
-   open,
-   onOpenChange,
-   roomType,
-   roomPrice,
-   roomId,
- }: BookingDialogProps) => {
+interface BookingDialogProps {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+  roomType: string;
+  roomPrice?: string;
+  roomId?: string;
+}
+
+const BookingDialog = ({
+  open,
+  onOpenChange,
+  roomType,
+  roomPrice,
+  roomId,
+}: BookingDialogProps) => {
    const [isSubmitting, setIsSubmitting] = useState(false);
  
    const form = useForm<FormData>({
@@ -98,11 +98,11 @@
      <Dialog open={open} onOpenChange={onOpenChange}>
        <DialogContent className="sm:max-w-[425px]">
          <DialogHeader>
-           <DialogTitle className="font-serif">Book {roomType}</DialogTitle>
-           <DialogDescription>
-             {roomPrice}/month - Fill in your details and we'll get back to you
-             shortly.
-           </DialogDescription>
+            <DialogTitle className="font-serif">Book {roomType}</DialogTitle>
+            <DialogDescription>
+              {roomPrice ? `${roomPrice}/month - ` : ""}Fill in your details and we'll get back to you
+              shortly.
+            </DialogDescription>
          </DialogHeader>
  
          <Form {...form}>
