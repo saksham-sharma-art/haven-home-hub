@@ -41,15 +41,15 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email Us",
-      value: "info@bloomhostel.com",
-      href: "mailto:info@bloomhostel.com",
+      value: "info@cozyheaven.com",
+      href: "mailto:info@cozyheaven.com",
       color: "peach",
     },
     {
       icon: MessageCircle,
       label: "WhatsApp",
       value: "Chat with us",
-      href: "https://wa.me/919876543210?text=Hi,%20I'm%20interested%20in%20Bloom%20Hostel",
+      href: "https://wa.me/919876543210?text=Hi,%20I'm%20interested%20in%20Cozy%20Heaven",
       color: "sky",
     },
   ];
@@ -186,35 +186,28 @@ const ContactSection = () => {
             ))}
 
             {/* Address Card */}
-            <div className="bg-card rounded-xl p-6 shadow-card">
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=JH4R%2BPH+Bharthia,+Uttar+Pradesh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-card rounded-xl p-6 shadow-card hover:shadow-hover transition-all duration-300 group"
+            >
               <div className="flex items-start gap-4">
-                <div className="w-14 h-14 rounded-xl bg-rose-light flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-rose" />
+                <div className="w-14 h-14 rounded-xl bg-rose-light group-hover:bg-rose transition-colors flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-rose group-hover:text-white transition-colors" />
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Visit Us</p>
                   <p className="font-semibold text-foreground">
-                    123, Bloom Lane, Near Central Park,
+                    Near The Basement Cafe, ON NH2,
                     <br />
-                    North Campus, New Delhi - 110007
+                    Just beside GLA University, Mathura,
+                    <br />
+                    Bharthia, Uttar Pradesh - 281406
                   </p>
                 </div>
               </div>
-            </div>
-
-            {/* CTA Card */}
-            <div className="bg-gradient-to-br from-lavender-light via-peach-light to-sky-light rounded-xl p-6">
-              <h4 className="font-serif text-lg font-semibold text-foreground mb-2">
-                Schedule a Free Visit
-              </h4>
-              <p className="text-muted-foreground text-sm mb-4">
-                Come see our facilities in person. Book a tour and we'll show you
-                around!
-              </p>
-              <Button className="cta-gradient border-0 text-primary-foreground hover:opacity-90">
-                Book a Visit
-              </Button>
-            </div>
+            </a>
           </motion.div>
         </div>
       </div>

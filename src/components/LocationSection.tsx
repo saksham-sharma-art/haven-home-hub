@@ -36,13 +36,19 @@ const LocationSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative rounded-2xl overflow-hidden shadow-card"
+            className="relative rounded-2xl overflow-hidden shadow-card cursor-pointer group"
+            onClick={() => window.open("https://www.google.com/maps/dir/?api=1&destination=JH4R%2BPH+Bharthia,+Uttar+Pradesh", "_blank")}
           >
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 flex items-center justify-center">
+              <span className="opacity-0 group-hover:opacity-100 transition-opacity bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium">
+                Click to get directions
+              </span>
+            </div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.5!2d77.5082!3d27.4965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39736e6e5d9e7a3b%3A0x4f6b6e6b6e6b6e6b!2sJH4R%2BPH%20Bharthia%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1709000000000"
               width="100%"
               height="400"
-              style={{ border: 0 }}
+              style={{ border: 0, pointerEvents: "none" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
