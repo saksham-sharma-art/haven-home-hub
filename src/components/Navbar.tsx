@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import BookingDialog from "@/components/BookingDialog";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -26,9 +27,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full cta-gradient flex items-center justify-center">
-                <span className="font-serif text-lg font-bold text-primary-foreground">CH</span>
-              </div>
+              <img src={logo} alt="Cozy Heaven Logo" className="w-10 h-10 rounded-full object-cover" />
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-semibold text-foreground leading-tight">
                   Cozy Heaven
@@ -52,9 +51,9 @@ const Navbar = () => {
 
             {/* CTA Button */}
             <div className="hidden md:flex items-center gap-3">
-              <a href="tel:+919876543210" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
+              <a href="tel:+918958598888" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
                 <Phone className="w-4 h-4" />
-                <span>+91 98765 43210</span>
+                <span>+91 89585 98888</span>
               </a>
               <Button 
                 onClick={() => setBookingOpen(true)}
