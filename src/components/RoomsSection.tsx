@@ -10,8 +10,8 @@ import roomTriple from "@/assets/room-triple.jpg";
 const rooms = [
   {
     type: "Double Sharing",
-    price: "₹8,000",
-    period: "/month",
+    price: "₹1,00,000",
+    period: "/year",
     image: roomDouble,
     features: [
       "Shared with 1 roommate",
@@ -26,8 +26,8 @@ const rooms = [
   },
   {
     type: "Triple Sharing",
-    price: "₹6,000",
-    period: "/month",
+    price: "₹85,000",
+    period: "/year",
     image: roomTriple,
     features: [
       "Shared with 2 roommates",
@@ -42,8 +42,8 @@ const rooms = [
   },
   {
     type: "Four Sharing",
-    price: "₹5,000",
-    period: "/month",
+    price: "₹75,000",
+    period: "/year",
     image: roomSingle,
     features: [
       "Shared with 3 roommates",
