@@ -41,8 +41,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email Us",
-      value: "info@cozyheaven.com",
-      href: "mailto:info@cozyheaven.com",
+      value: "sks.saksham186@gmail.com",
+      href: "mailto:sks.saksham186@gmail.com",
       color: "peach",
     },
     {
