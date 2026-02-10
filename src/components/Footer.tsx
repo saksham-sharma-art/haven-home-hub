@@ -1,4 +1,5 @@
 import { Heart, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -32,9 +33,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <a href="#home" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-full cta-gradient flex items-center justify-center">
-                <span className="font-serif text-sm font-bold text-primary-foreground">CH</span>
-              </div>
+              <img src={logo} alt="Cozy Heaven Logo" className="w-10 h-10 rounded-full object-cover" />
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-semibold">Cozy Heaven</span>
                 <span className="text-xs text-primary-foreground/70 italic">A Home Away from Home</span>
@@ -104,10 +103,10 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918958598888"
                   className="hover:text-primary-foreground transition-colors"
                 >
-                  +91 98765 43210
+                  +91 89585 98888
                 </a>
               </li>
               <li>

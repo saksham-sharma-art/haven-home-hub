@@ -34,8 +34,8 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: "Call Us",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210",
+      value: "+91 89585 98888",
+      href: "tel:+918958598888",
       color: "lavender",
     },
     {
@@ -49,7 +49,7 @@ const ContactSection = () => {
       icon: MessageCircle,
       label: "WhatsApp",
       value: "Chat with us",
-      href: "https://wa.me/919876543210?text=Hi,%20I'm%20interested%20in%20Cozy%20Heaven",
+      href: "https://wa.me/918958598888?text=Hi,%20I'm%20interested%20in%20Cozy%20Heaven",
       color: "sky",
     },
   ];
