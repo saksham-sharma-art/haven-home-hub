@@ -69,30 +69,43 @@ const BookingDialog = ({
      },
    });
  
-   const onSubmit = async (data: FormData) => {
-     setIsSubmitting(true);
-     try {
-       const { error } = await supabase.from("booking_inquiries").insert({
-         room_id: roomId || null,
-         name: data.name,
-         email: data.email,
-         phone: data.phone,
-         check_in_date: format(data.checkInDate, "yyyy-MM-dd"),
-         message: data.message || null,
-       });
- 
-       if (error) throw error;
- 
-       toast.success("Inquiry submitted successfully! We'll contact you soon.");
-       form.reset();
-       onOpenChange(false);
-     } catch (error) {
-       console.error("Error submitting inquiry:", error);
-       toast.error("Failed to submit inquiry. Please try again.");
-     } finally {
-       setIsSubmitting(false);
-     }
-   };
+    const onSubmit = async (data: FormData) => {
+      setIsSubmitting(true);
+      try {
+        const { error } = await supabase.from("booking_inquiries").insert({
+          room_id: roomId || null,
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          check_in_date: format(data.checkInDate, "yyyy-MM-dd"),
+          message: data.message || null,
+        });
+  
+        if (error) throw error;
+
+        // Send email notification
+        supabase.functions.invoke("send-booking-email", {
+          body: {
+            name: data.name,
+            email: data.email,
+            phone: data.phone,
+            checkInDate: format(data.checkInDate, "PPP"),
+            roomType,
+            roomPrice,
+            message: data.message,
+          },
+        }).catch((err) => console.error("Email notification failed:", err));
+  
+        toast.success("Inquiry submitted successfully! We'll contact you soon.");
+        form.reset();
+        onOpenChange(false);
+      } catch (error) {
+        console.error("Error submitting inquiry:", error);
+        toast.error("Failed to submit inquiry. Please try again.");
+      } finally {
+        setIsSubmitting(false);
+      }
+    };
  
    return (
      <Dialog open={open} onOpenChange={onOpenChange}>
