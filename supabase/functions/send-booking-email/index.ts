@@ -27,7 +27,7 @@ serve(async (req: Request) => {
 
     const emailResponse = await resend.emails.send({
       from: "Cozy Heaven <onboarding@resend.dev>",
-      to: ["sks.saksham186@gmail.com"],
+      to: ["cozyheaven111@gmail.com"],
       subject: `New Booking Inquiry - ${roomType} from ${name}`,
       html: `
         <h2>New Booking Inquiry - Cozy Heaven Stay</h2>
