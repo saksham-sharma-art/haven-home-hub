@@ -43,8 +43,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email Us",
-      value: "sks.saksham186@gmail.com",
-      href: "mailto:sks.saksham186@gmail.com",
+      value: "cozyheaven111@gmail.com",
+      href: "mailto:cozyheaven111@gmail.com",
       color: "peach",
     },
     {
