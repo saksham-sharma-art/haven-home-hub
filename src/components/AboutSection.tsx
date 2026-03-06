@@ -106,7 +106,7 @@ const AboutSection = () => {
           className="mt-16 grid grid-cols-2 gap-8 max-w-md mx-auto"
         >
           {[
-            { number: "12+", label: "Furnished Rooms" },
+            { number: "40+", label: "Furnished Rooms" },
             { number: "4.9", label: "Google Rating" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
