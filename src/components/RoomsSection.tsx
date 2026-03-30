@@ -165,6 +165,12 @@ const RoomsSection = () => {
             <br />
             Special discounts available for long-term stays (6+ months).
           </p>
+          <p className="mt-4 italic text-muted-foreground/80">
+            Our rooms are constantly being upgraded! These images represent our design concepts; the actual furniture and layout may differ slightly.
+          </p>
+          <p className="mt-2 italic text-muted-foreground/80">
+            Visual representations only. Experience the real Cozy Heaven by scheduling a personalized tour today.
+          </p>
         </motion.div>
       </div>
        
