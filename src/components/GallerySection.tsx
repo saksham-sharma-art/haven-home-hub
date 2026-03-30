@@ -72,6 +72,21 @@ const GallerySection = () => {
           ))}
         </div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="mt-8 text-center text-sm text-muted-foreground"
+        >
+          <p className="italic text-muted-foreground/80">
+            Our rooms are constantly being upgraded! These images represent our design concepts; the actual furniture and layout may differ slightly.
+          </p>
+          <p className="mt-2 italic text-muted-foreground/80">
+            Visual representations only. Experience the real Cozy Heaven by scheduling a personalized tour today.
+          </p>
+        </motion.div>
+
         {/* Lightbox */}
         <AnimatePresence>
           {selectedImage && (
