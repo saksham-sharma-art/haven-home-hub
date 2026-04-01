@@ -18,7 +18,7 @@ const rooms = [
       "Attached bathroom",
       "Individual study desk",
       "Personal wardrobe",
-      "AC included",
+      "Fan/Cooler",
       "All meals included",
     ],
     popular: true,
