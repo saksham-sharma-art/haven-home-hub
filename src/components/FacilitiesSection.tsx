@@ -18,15 +18,11 @@ const facilities = [
   { icon: Wifi, name: "High-Speed Wi-Fi", description: "Unlimited internet access" },
   { icon: Utensils, name: "Homely Meals", description: "3 nutritious meals daily" },
   { icon: Shield, name: "24/7 Security", description: "CCTV & trained guards" },
-  { icon: BookOpen, name: "Study Area", description: "Quiet zones for focus" },
-  { icon: WashingMachine, name: "Laundry Service", description: "Weekly wash included" },
   { icon: Tv, name: "Common Lounge", description: "TV & recreation area" },
   { icon: Wind, name: "Air Conditioning", description: "Climate controlled rooms" },
   { icon: Droplets, name: "Hot Water", description: "24/7 geyser facility" },
   { icon: Car, name: "Parking", description: "Two-wheeler parking" },
   { icon: Coffee, name: "Pantry", description: "Self-service kitchen" },
-  { icon: Dumbbell, name: "Fitness Area", description: "Basic gym equipment" },
-  { icon: Sparkles, name: "Housekeeping", description: "Daily room cleaning" },
 ];
 
 const FacilitiesSection = () => {
