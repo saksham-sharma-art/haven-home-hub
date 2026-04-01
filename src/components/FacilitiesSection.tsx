@@ -3,15 +3,11 @@ import {
   Wifi,
   Utensils,
   Shield,
-  BookOpen,
-  WashingMachine,
   Tv,
   Wind,
   Droplets,
   Car,
   Coffee,
-  Dumbbell,
-  Sparkles,
 } from "lucide-react";
 
 const facilities = [
