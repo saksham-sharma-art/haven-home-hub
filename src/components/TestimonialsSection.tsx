@@ -7,7 +7,7 @@ const testimonials = [
     role: "GLA University Student",
     avatar: "PS",
     rating: 5,
-    text: "Cozy Heaven has been my home for 2 years now. Being right next to GLA University makes it so convenient. The staff is incredibly caring, and I feel completely safe here!",
+    text: "Trust is the most important thing when looking for a hostel. Having known the owner through The Basement Cafe, I can say they are incredibly genuine and helpful. They bring that same level of care and humility to Cozy Heaven. You can rest assured that students here are in very good hands!",
     color: "lavender",
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
     role: "Software Engineer",
     avatar: "AG",
     rating: 5,
-    text: "As a working professional near Mathura, I needed a place that's safe and convenient. Cozy Heaven exceeded my expectations. The location on NH2 is perfect!",
+    text: "If you've ever been to The Basement Cafe, you already know how wonderful the owner is. That same humble and kind nature is what makes Cozy Heaven stand out. It's safe, professional, and has a very 'homely' vibe. Definitely the best choice near GLA University.",
     color: "peach",
   },
   {
@@ -23,16 +23,8 @@ const testimonials = [
     role: "Medical Student",
     avatar: "SR",
     rating: 5,
-    text: "The study environment at Cozy Heaven is excellent. Being close to GLA and having quiet hours strictly maintained makes it perfect for students like me.",
+    text: "Knowing the owner from The Basement Cafe, I can personally vouch for the hospitality here. They are one of the most kind and humble people I've met, and that same warmth reflects in how Cozy Heaven is run. It's not just a hostel; it's a place managed by someone who truly cares about people. Highly recommended for any student looking for a safe and friendly environment!",
     color: "sky",
-  },
-  {
-    name: "Kavitha Menon",
-    role: "Parent",
-    avatar: "KM",
-    rating: 5,
-    text: "My daughter stays at Cozy Heaven while studying at GLA. The security measures, location near The Basement Cafe, and regular updates give me complete peace of mind.",
-    color: "rose",
   },
 ];
 
