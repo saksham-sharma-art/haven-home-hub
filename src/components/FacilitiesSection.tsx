@@ -15,8 +15,8 @@ const facilities = [
   { icon: Utensils, name: "Homely Meals", description: "3 nutritious meals daily" },
   { icon: Shield, name: "24/7 Security", description: "CCTV & trained guards" },
   { icon: Tv, name: "Common Lounge", description: "TV & recreation area" },
-  { icon: Wind, name: "Air Conditioning", description: "Climate controlled rooms" },
-  { icon: Droplets, name: "Hot Water", description: "24/7 geyser facility" },
+  { icon: Wind, name: "Air Cooled", description: "Climate controlled rooms" },
+  { icon: Droplets, name: "Hot Water", description: "24/7 hot water facility" },
   { icon: Car, name: "Parking", description: "Two-wheeler parking" },
   { icon: Coffee, name: "Pantry", description: "Self-service kitchen" },
 ];

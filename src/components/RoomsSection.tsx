@@ -26,7 +26,7 @@ const rooms = [
   },
   {
     type: "Triple Sharing",
-    price: "₹85,000",
+    price: "₹90,000",
     period: "/year",
     image: roomTriple,
     features: [
@@ -42,7 +42,7 @@ const rooms = [
   },
   {
     type: "Four Sharing",
-    price: "₹75,000",
+    price: "₹80,000",
     period: "/year",
     image: roomSingle,
     features: [
