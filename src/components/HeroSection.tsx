@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Cozy Heaven - Girls Hostel"
+            alt="Cozy Heaven Girls Hostel near GLA University Mathura - Safe PG for Women"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
@@ -40,8 +40,8 @@ const HeroSection = () => {
               className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-6 leading-tight"
             >
               Safe, Comfortable &{" "}
-              <span className="text-lavender-dark">Affordable</span> Living for
-              Women
+<span className="text-lavender-dark">Affordable</span> Girls Hostel
+near GLA University, Mathura
             </motion.h1>
 
             <motion.p
@@ -51,7 +51,8 @@ const HeroSection = () => {
               className="text-lg text-muted-foreground mb-8 max-w-xl"
             >
               Experience the perfect blend of comfort, security, and community at
-              Cozy Heaven. Your home away from home awaits.
+Cozy Heaven — a premium women's PG hostel near GLA University, Mathura.
+Your home away from home awaits.
             </motion.p>
 
             <motion.div
