@@ -50,7 +50,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social, index) => (
-                
+                <a
                   key={index}
                   href={social.href}
                   aria-label={social.label}
@@ -68,7 +68,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
-                  
+                  <a
                     href={link.href}
                     className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                   >
@@ -85,7 +85,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {policies.map((link, index) => (
                 <li key={index}>
-                  
+                  <a
                     href={link.href}
                     className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                   >
@@ -112,16 +112,16 @@ const Footer = () => {
                   <span itemProp="postalCode">281406</span>
                 </li>
                 <li>
-                  
-                    href="tel:+918958598888"
+                  <a
+                    href="tel:+918679691985"
                     itemProp="telephone"
                     className="hover:text-primary-foreground transition-colors"
                   >
-                    +91 89585 98888
+                    +91 8679691985
                   </a>
                 </li>
                 <li>
-                  
+                  <a
                     href="mailto:cozyheaven111@gmail.com"
                     itemProp="email"
                     className="hover:text-primary-foreground transition-colors"
