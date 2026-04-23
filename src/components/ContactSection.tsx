@@ -36,8 +36,8 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: "Call Us",
-      value: "+91 89585 98888",
-      href: "tel:+918958598888",
+      value: "+91 8679691985",
+      href: "tel:+918679691985",
       color: "lavender",
     },
     {

@@ -51,9 +51,9 @@ const Navbar = () => {
 
             {/* CTA Button */}
             <div className="hidden md:flex items-center gap-3">
-              <a href="tel:+918958598888" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
+              <a href="tel:+918679691985" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
                 <Phone className="w-4 h-4" />
-                <span>+91 89585 98888</span>
+                <span>+91 8679691985</span>
               </a>
               <Button 
                 onClick={() => setBookingOpen(true)}
