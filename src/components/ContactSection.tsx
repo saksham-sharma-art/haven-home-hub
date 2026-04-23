@@ -18,7 +18,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const whatsappMessage = `New Contact Inquiry:%0A%0AName: ${encodeURIComponent(formData.name)}%0AEmail: ${encodeURIComponent(formData.email)}%0APhone: ${encodeURIComponent(formData.phone)}%0AMessage: ${encodeURIComponent(formData.message)}`;
-    window.open(`https://wa.me/918958598888?text=${whatsappMessage}`, "_blank");
+    window.open(`https://wa.me/918679691985?text=${whatsappMessage}`, "_blank");
     toast({
       title: "Redirecting to WhatsApp!",
       description: "Your message details have been pre-filled.",
@@ -51,7 +51,7 @@ const ContactSection = () => {
       icon: MessageCircle,
       label: "WhatsApp",
       value: "Chat with us",
-      href: "https://wa.me/918958598888?text=Hi,%20I'm%20interested%20in%20Cozy%20Heaven",
+      href: "https://wa.me/918679691985?text=Hi,%20I'm%20interested%20in%20Cozy%20Heaven",
       color: "sky",
     },
   ];
