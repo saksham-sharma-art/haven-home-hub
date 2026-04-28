@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { MapPin, Building2, Clock, Hospital } from "lucide-react";
 
 const nearbyPlaces = [
-  { icon: Building2, name: "GLA University", distance: "Just beside" },
+  { icon: Building2, name: "GLA University Main Gate", distance: "Just beside" },
+  { icon: Building2, name: "GLA University Campus", distance: "Walking distance" },
   { icon: Hospital, name: "KD Hospital", distance: "2 km" },
 ];
 
@@ -24,8 +25,9 @@ const LocationSection = () => {
             Centrally Located, <span className="text-lavender-dark">Easily Accessible</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Strategically situated near major educational institutions, hospitals,
-            and excellent public transport connectivity.
+            Strategically situated just beside GLA University, Mathura — ideal for
+female students seeking safe and affordable PG accommodation near
+GLA University campus, Bharthia, Chaumuhan, Uttar Pradesh 281406.
           </p>
         </motion.div>
 
@@ -76,11 +78,11 @@ const LocationSection = () => {
                     Our Address
                   </h3>
                   <p className="text-muted-foreground">
-                    Near The Basement Cafe, ON NH2,
-                    <br />
-                    Just beside GLA University, Mathura,
-                    <br />
-                    Bharthia, Uttar Pradesh - 281406
+                    Near The Basement Cafe, NH-19 (NH2),
+<br />
+Just beside GLA University, Mathura,
+<br />
+Bharthia, Chaumuhan, Uttar Pradesh - 281406
                   </p>
                 </div>
               </div>
