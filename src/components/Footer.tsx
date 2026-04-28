@@ -27,7 +27,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-foreground text-background">
+    <footer className="bg-foreground text-primary-foreground">
       <div className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
 
@@ -44,7 +44,7 @@ const Footer = () => {
                 <span className="text-xs text-primary-foreground/70 italic">A Home Away from Home</span>
               </div>
             </a>
-            <p className="text-background/70 text-sm mb-4">
+            <p className="text-primary-foreground/70 text-sm mb-4">
               Safe, comfortable, and affordable girls hostel near GLA University, Mathura.
               Premium PG accommodation for women with 24/7 security and home-cooked meals.
             </p>
@@ -54,7 +54,7 @@ const Footer = () => {
       key={index}
       href={social.href}
       aria-label={social.label}
-      className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
+      className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
     >
       <social.icon className="w-5 h-5" />
     </a>
@@ -70,7 +70,7 @@ const Footer = () => {
   <li key={index}>
     <a
       href={link.href}
-      className="text-background/70 hover:text-background transition-colors text-sm"
+      className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
     >
       {link.name}
     </a>
@@ -87,7 +87,7 @@ const Footer = () => {
                 <li key={index}>
                   <a
                     href={link.href}
-                    className="text-background/70 hover:text-background transition-colors text-sm"
+                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                   >
                     {link.name}
                   </a>
@@ -100,7 +100,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact Info</h4>
             <address style={{ fontStyle: "normal" }}>
-              <ul className="space-y-3 text-sm text-background/70">
+              <ul className="space-y-3 text-sm text-primary-foreground/70">
                 <li itemScope itemType="https://schema.org/PostalAddress">
                   <span itemProp="streetAddress">
                     Near The Basement Cafe, NH-19, beside GLA University
@@ -113,18 +113,18 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="tel:+918679691985"
+                    href="tel:+918958598888"
                     itemProp="telephone"
-                    className="hover:text-background transition-colors"
+                    className="hover:text-primary-foreground transition-colors"
                   >
-                    +91-86796 91985
+                    +91 89585 98888
                   </a>
                 </li>
                 <li>
                   <a
                     href="mailto:cozyheaven111@gmail.com"
                     itemProp="email"
-                    className="hover:text-background transition-colors"
+                    className="hover:text-primary-foreground transition-colors"
                   >
                     cozyheaven111@gmail.com
                   </a>
@@ -136,11 +136,11 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-background/60">
+        <div className="pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-sm text-primary-foreground/60">
             © {currentYear} Cozy Heaven Girls Hostel, Mathura. All rights reserved.
           </p>
-          <p className="text-sm text-background/60 flex items-center gap-1">
+          <p className="text-sm text-primary-foreground/60 flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-rose fill-rose" /> for women
           </p>
         </div>
