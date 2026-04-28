@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2">
-              <img src={logo} alt="Cozy Heaven Logo" className="w-10 h-10 rounded-full object-cover" />
+              <img src={logo} alt="Cozy Heaven Girls PG & Hostel logo" className="w-10 h-10 rounded-full object-cover" />
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-semibold text-foreground leading-tight">
                   Cozy Heaven

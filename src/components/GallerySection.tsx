@@ -9,12 +9,12 @@ import commonLounge from "@/assets/common-lounge.jpg";
 import heroImage from "@/assets/hero-hostel.jpg";
 
 const galleryImages = [
-  { src: heroImage, alt: "Hostel Exterior", category: "Exterior" },
-  { src: roomSingle, alt: "Single Room", category: "Rooms" },
-  { src: roomDouble, alt: "Double Room", category: "Rooms" },
-  { src: diningHall, alt: "Dining Hall", category: "Common Areas" },
-  { src: commonLounge, alt: "Common Lounge", category: "Common Areas" },
-  { src: roomTriple, alt: "Triple Room", category: "Rooms" },
+  { src: heroImage, alt: "Exterior view of Cozy Heaven Girls PG & Hostel building near GLA University Mathura", category: "Exterior" },
+  { src: roomSingle, alt: "Four sharing furnished room with beds, study area and wardrobe at Cozy Heaven Girls PG & Hostel Mathura", category: "Rooms" },
+  { src: roomDouble, alt: "Double sharing room with two beds, attached bathroom and study desks at Cozy Heaven Girls PG & Hostel", category: "Rooms" },
+  { src: diningHall, alt: "Spacious dining hall serving home-cooked meals to girls at Cozy Heaven PG & Hostel Mathura", category: "Common Areas" },
+  { src: commonLounge, alt: "Cozy common lounge area for girls to relax and socialize at Cozy Heaven Hostel near GLA University", category: "Common Areas" },
+  { src: roomTriple, alt: "Triple sharing room with three beds and personal lockers at Cozy Heaven Girls PG & Hostel", category: "Rooms" },
 ];
 
 const GallerySection = () => {
@@ -58,6 +58,7 @@ const GallerySection = () => {
               <img
                 src={image.src}
                 alt={image.alt}
+                loading="lazy"
                 className={`w-full object-cover group-hover:scale-110 transition-transform duration-500 ${
                   index === 0 ? "h-full min-h-[300px] md:min-h-[400px]" : "aspect-square"
                 }`}
@@ -108,7 +109,7 @@ const GallerySection = () => {
                 animate={{ scale: 1, opacity: 1 }}
                 exit={{ scale: 0.9, opacity: 0 }}
                 src={selectedImage}
-                alt="Gallery"
+                alt="Enlarged gallery photo of Cozy Heaven Girls PG & Hostel Mathura"
                 className="max-w-full max-h-[90vh] object-contain rounded-lg"
                 onClick={(e) => e.stopPropagation()}
               />
