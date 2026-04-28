@@ -107,8 +107,9 @@ const RoomsSection = () => {
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={room.image}
-                  alt={room.type}
+                  alt={`${room.type} room at Cozy Heaven Girls PG & Hostel near GLA University Mathura - fully furnished with beds, study desk and wardrobe`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
                 />
               </div>
 
