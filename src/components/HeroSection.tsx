@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Cozy Heaven Girls Hostel near GLA University Mathura - Safe PG for Women"
+            alt="Cozy Heaven Girls PG & Hostel near GLA University Mathura - Safe PG for Women"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />

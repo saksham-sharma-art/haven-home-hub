@@ -36,7 +36,7 @@ const Footer = () => {
             <a href="#home" className="flex items-center gap-2 mb-4">
               <img
                 src={logo}
-                alt="Cozy Heaven Girls Hostel near GLA University Mathura"
+                alt="Cozy Heaven Girls PG & Hostel near GLA University Mathura"
                 className="w-10 h-10 rounded-full object-cover"
               />
               <div className="flex flex-col">
@@ -138,7 +138,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/60">
-            © {currentYear} Cozy Heaven Girls Hostel, Mathura. All rights reserved.
+            © {currentYear} Cozy Heaven Girls PG & Hostel, Mathura. All rights reserved.
           </p>
           <p className="text-sm text-primary-foreground/60 flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-rose fill-rose" /> for women
