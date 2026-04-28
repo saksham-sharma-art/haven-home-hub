@@ -50,9 +50,10 @@ const AboutSection = () => {
             A Home Designed for <span className="text-lavender-dark">Women</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Cozy Heaven provides safe, comfortable, and affordable
-            accommodation for women. We understand the unique needs of
-            working women and students, creating spaces where you can thrive.
+            Cozy Heaven provides safe, comfortable, and affordable accommodation
+for women near GLA University, Mathura. Located in Bharthia,
+Chaumuhan, Uttar Pradesh, we understand the unique needs of female
+students and working women — creating a space where you can truly thrive.
           </p>
         </motion.div>
 
