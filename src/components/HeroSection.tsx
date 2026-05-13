@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Cozy Heaven Girls PG & Hostel near GLA University Mathura - Safe PG for Women"
+            alt="Cozy Heaven Girls Hostel near GLA University Mathura - Safe PG for Women"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
@@ -39,8 +39,8 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-6 leading-tight"
             >
-              Safe, Comfortable &{" "}
-<span className="text-lavender-dark">Affordable</span> Girls Hostel
+              Safe, Comfortable & Affordable
+<span className="text-lavender-dark"> Girls PG & Hostel</span>
 near GLA University, Mathura
             </motion.h1>
 
@@ -50,9 +50,7 @@ near GLA University, Mathura
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-muted-foreground mb-8 max-w-xl"
             >
-              Experience the perfect blend of comfort, security, and community at
-Cozy Heaven — a premium women's PG hostel near GLA University, Mathura.
-Your home away from home awaits.
+              Experience safe and comfortable accommodation at Cozy Heaven Girls PG & Hostel near GLA University, Mathura. Designed for female students and working women, we provide a peaceful environment with furnished rooms, homely meals, WiFi, and 24/7 security.
             </motion.p>
 
             <motion.div
