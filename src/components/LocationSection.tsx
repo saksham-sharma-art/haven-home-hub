@@ -23,7 +23,7 @@ const LocationSection = () => {
             Location
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
-            Centrally Located, <span className="text-lavender-dark">Easily Accessible</span>
+            Girls PG & Hostel Near GLA University, Mathura
           </h2>
           <p className="text-muted-foreground text-lg">
   Cozy Heaven Girls PG & Hostel is conveniently located beside GLA University, Mathura, offering safe and comfortable accommodation for female students and working women in a peaceful environment.
