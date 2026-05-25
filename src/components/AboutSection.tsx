@@ -47,7 +47,7 @@ const AboutSection = () => {
             About Us
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
-            A Home Designed for <span className="text-lavender-dark">Women</span>
+            A Safe Girls PG & Hostel Near GLA University
           </h2>
           <p className="text-muted-foreground text-lg">
   Cozy Heaven Girls PG & Hostel offers safe, comfortable, and affordable accommodation for female students and working women near GLA University, Mathura. Located in Chaumuhan, we provide a peaceful environment with furnished rooms, meals, WiFi, and security facilities designed for comfortable student living.
