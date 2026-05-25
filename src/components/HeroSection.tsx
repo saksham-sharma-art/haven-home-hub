@@ -40,8 +40,10 @@ const HeroSection = () => {
               className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-6 leading-tight"
             >
               Safe, Comfortable & Affordable
-<span className="text-lavender-dark"> Girls PG & Hostel</span>
-near GLA University, Mathura
+<span className="text-lavender-dark">
+Girls PG & Hostel Near GLA University
+</span>
+in Mathura
             </motion.h1>
 
             <motion.p
