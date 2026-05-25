@@ -36,7 +36,7 @@ const FacilitiesSection = () => {
             Facilities
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
-            Everything You Need, <span className="text-lavender-dark">All in One Place</span>
+            Facilities at Cozy Heaven Girls PG & Hostel
           </h2>
           <p className="text-muted-foreground text-lg">
             From modern amenities to thoughtful services, we've designed every detail
