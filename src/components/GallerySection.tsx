@@ -7,6 +7,7 @@ import roomTriple from "@/assets/room-triple.jpg";
 import diningHall from "@/assets/dining-hall.jpg";
 import commonLounge from "@/assets/common-lounge.jpg";
 import heroImage from "@/assets/hero-hostel.jpg";
+import hostelTourVideo from "@/assets/hostel-tour.mp4";
 
 const galleryImages = [
   { src: heroImage, alt: "Exterior view of Cozy Heaven Girls PG & Hostel building near GLA University Mathura", category: "Exterior" },
@@ -72,6 +73,30 @@ const GallerySection = () => {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mt-8"
+        >
+          <div className="relative overflow-hidden rounded-xl shadow-lg max-w-3xl mx-auto">
+            <video
+              src={hostelTourVideo}
+              controls
+              playsInline
+              preload="metadata"
+              className="w-full h-auto"
+              aria-label="Video tour of Cozy Heaven Girls PG & Hostel near GLA University Mathura"
+            >
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="text-center text-sm text-muted-foreground mt-3 italic">
+            Watch a quick video tour of Cozy Heaven Girls PG & Hostel
+          </p>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
