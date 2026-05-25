@@ -43,7 +43,7 @@ const TestimonialsSection = () => {
             Testimonials
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
-            What Our <span className="text-lavender-dark">Residents Say</span>
+            What Students Say About <span className="text-lavender-dark">Our Girls PG & Hostel</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Don't just take our word for it. Here's what our residents and their
