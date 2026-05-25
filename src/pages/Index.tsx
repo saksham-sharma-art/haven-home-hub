@@ -7,6 +7,7 @@ import GallerySection from "@/components/GallerySection";
 import LocationSection from "@/components/LocationSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -21,6 +22,7 @@ const Index = () => {
       <LocationSection />
       <TestimonialsSection />
       <ContactSection />
+      <FAQSection />
       <Footer />
     </div>
   );
