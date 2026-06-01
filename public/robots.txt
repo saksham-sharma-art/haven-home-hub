@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /supabase/
+Disallow: /src/
+Disallow: /.env
 
 Sitemap: https://www.thecozyheaven.com/sitemap.xml
