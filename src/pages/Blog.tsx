@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { blogPosts } from "@/data/blogPosts";
 
 const Blog = () => {
-  const url = "https://stay-sweetly-home.lovable.app/blog";
+  const url = "https://www.thecozyheaven.com/blog";
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Helmet>
