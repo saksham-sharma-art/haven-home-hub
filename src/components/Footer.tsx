@@ -1,4 +1,4 @@
-import { Heart, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import { Heart, Instagram } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -20,10 +20,7 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Instagram, href: "https://instagram.com/cozyheaven111", label: "Instagram" },
   ];
 
   return (
