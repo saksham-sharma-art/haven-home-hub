@@ -13,7 +13,7 @@ const BlogPost = () => {
 
   if (!post) return <Navigate to="/blog" replace />;
 
-  const url = `https://stay-sweetly-home.lovable.app/blog/${post.slug}`;
+  const url = `https://www.thecozyheaven.com/blog/${post.slug}`;
   const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 2);
 
   return (
